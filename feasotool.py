@@ -4,13 +4,13 @@ import pandas as pd
 
 
 
-# hide_st_style = """
-#             <style>
-#             header {visibility: hidden;}
-#             footer {visibility: hidden;}
-#             </style>
-#             """
-# st.markdown(hide_st_style, unsafe_allow_html=True)
+hide_st_style = """
+            <style>
+            header {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
 def add_bg_image():
