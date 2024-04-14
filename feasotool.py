@@ -338,7 +338,7 @@ st.markdown(headerText1)
 
 if region == "NSW":
     st.markdown("**Gross Hectare is required in NSW**")
-    GrossHA = st.number_input("Gross Hectare", key="gross_hectare_nsw", value=20.0, step=0.00001, format="%.2f")
+    #GrossHA = st.number_input("Gross Hectare", key="gross_hectare_nsw", value=20.0, step=0.00001, format="%.2f")
     # Since "Enable NDH" checkbox is not applicable for NSW, set enable_NDH to False
     enable_NDH = False
 else:
@@ -350,7 +350,7 @@ if enable_NDH:
 else:
     # When "Enable NDH" checkbox is not enabled, prompt for GrossHA and AssumedNDA
     GrossHA = st.number_input("Gross Hectare", value=20.0, step=0.00001, format="%.2f")
-    AssumedNDA = st.number_input("Net Developable Hectares", min_value=1, max_value=100, value=100)
+    AssumedNDA = st.number_input("Net Developable Hectares %", min_value=1, max_value=100, value=100)
     AssumedNDA = AssumedNDA / 100
     NetDevelopableHectares = GrossHA * AssumedNDA  # Calculate NetDevelopableHectares
 
