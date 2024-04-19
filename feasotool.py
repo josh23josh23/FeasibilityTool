@@ -92,27 +92,27 @@ st.markdown("""
 constants = {
     'QLD': {
         'SimplifiedStampDutyRate': 0.0575,
-        'ProjectManagementFeePercent': 0.035,
+        'ProjectManagementFeePercent': 0.35,
     },
     'WA': {
         'SimplifiedStampDutyRate': 0.0515,
-        'ProjectManagementFeePercent': 0.035,  # Confirm if this is correct or a typo
+        'ProjectManagementFeePercent': 0.35,  # Confirm if this is correct or a typo
     },
     'VIC': {
         'SimplifiedStampDutyRate': 0.065,
-        'ProjectManagementFeePercent': 0.035,  # Confirm if this is correct or a typo
+        'ProjectManagementFeePercent': 0.35,  # Confirm if this is correct or a typo
     },
     'SA': {
         'SimplifiedStampDutyRate': 0.055,
-        'ProjectManagementFeePercent': 0.035,  # Confirm if this is correct or a typo
+        'ProjectManagementFeePercent': 0.35,  # Confirm if this is correct or a typo
     },
     'TAS': {
         'SimplifiedStampDutyRate': 0.045,
-        'ProjectManagementFeePercent': 0.035,  # Confirm if this is correct or a typo
+        'ProjectManagementFeePercent': 0.35,  # Confirm if this is correct or a typo
     },
     'NSW': {
         'SimplifiedStampDutyRate': 0.0565,
-        'ProjectManagementFeePercent': 0.035,  # Confirm if this is correct or a typo
+        'ProjectManagementFeePercent': 0.35,  # Confirm if this is correct or a typo
     }
 }
 
